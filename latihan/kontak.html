@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kontak | Daffa Ulhaq</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container navbar">
+
+            <div>
+                <h1>Hubungi Saya</h1>
+                <p>Punya pertanyaan atau ingin berkolaborasi?
+                    Isi form di bawah ini.</p>
+            </div>
+
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="Proyek.html">Proyek</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+
+            <section class="kartu">
+                <h2>Form Kontak</h2>
+
+                <p>
+                    Silakan isi form di bawah ini untuk menghubungi saya.
+                    Pastikan semua kolom diisi dengan benar.
+                </p>
+
+                <form>
+                    <p>
+                        <label for="nama">Nama Lengkap:</label><br>
+                        <input type="text" id="nama" name="nama"
+                            placeholder="Contoh: Kevin Mario" required>
+                    </p>
+
+                    <p>
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email"
+                            placeholder="Contoh: kevinmario@gmail.com" required>
+                    </p>
+
+                    <p>
+                        <label for="hp">Nomor HP:</label><br>
+                        <input type="tel" id="hp" name="hp"
+                            placeholder="Contoh: 081234567890" required>
+                    </p>
+
+                    <p>
+                        <label for="keperluan">Keperluan:</label><br>
+
+                        <select id="keperluan" name="keperluan" required>
+                            <option value="">--Pilih Keperluan--</option>
+                            <option value="Pertanyaan">Pertanyaan</option>
+                            <option value="Kolaborasi">Kolaborasi</option>
+                            <option value="Saran">Saran</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="pesan">Pesan:</label><br>
+
+                        <textarea id="pesan" name="pesan" rows="5"
+                            placeholder="Tulis Pesan Anda di Sini..."
+                            required></textarea>
+                    </p>
+
+                    <button type="submit">Kirim</button>
+                </form>
+            </section>
+
+        </div>
+    </main>
+
+    <footer>
+        <p> &copy; 2026 Muhammad Daffa Ulhaq. Dibuat di Kelas Industri UBIG.</p>
+    </footer>
+
+</body>
+</html>
