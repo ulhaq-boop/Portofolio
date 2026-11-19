@@ -25,5 +25,5 @@ Jadwal Belajar
 
 ## Tautan
 
-- Website: Menyusul setelah *deploy* ke Vercel
+- - Website: https://portofolio-Daffa-Ulhaq.vercel.app, 
 - Dibuat oleh: Muhammad Daffa' Ulhaq, SMKN 1 Jenangan
