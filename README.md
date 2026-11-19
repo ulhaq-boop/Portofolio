@@ -6,7 +6,7 @@ Website ini tampil rapi di ponsel, tablet, dan laptop.
 
 ## Tampilan
 
-![Tampilan Beranda Portofolio](/latihan/w5/img/Screenshot%20(44).png)
+![Tampilan Beranda Portofolio](/latihan/img/tampilan.png)
 
 ## Fitur
 
