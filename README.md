@@ -21,6 +21,7 @@ Jadwal Belajar
 - HTML5
 - CSS3 (Flexbox dan media query)
 - Git dan GitHub
+- VS Code dan Live Server
 
 ## Tautan
 
