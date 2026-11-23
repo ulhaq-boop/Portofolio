@@ -5,16 +5,15 @@ console.log("Halo, saya Andi!");
 console.log("Ini latihan JavaScript pertamaku.");
 
 // 2. Data siswa
-const nama = "Andi Pratama";
-const kelas = "X PPLG 1";
+const nama = "Daffa' Ulhaq";
+const kelas = "X RPL ";
 const kkm = 75;
 let nilaiTugas = 85;
 let nilaiUts = 78;
 let nilaiUas = 89;
 let kehadiran = 90;
 console.log(`Nama: ${nama}, kelas ${kelas}`);
-console.log(`Nilai tugas ${nilaiTugas}, UTS ${nilaiUts}, UAS $
-{nilaiUas}`);
+console.log(`Nilai tugas ${nilaiTugas}, UTS ${nilaiUts}, UAS ${nilaiUas}`);
 
 // 3. Fungsi
 const hitungRataRata = (tugas, uts, uas) => (tugas + uts + uas) / 3;
@@ -31,8 +30,7 @@ function predikat(nilai) {
 }
 function rapor(namaSiswa, tugas, uts, uas) {
    const rata = hitungRataRata(tugas, uts, uas);
-   return `${namaSiswa}: rata-rata ${rata}, predikat $
-{predikat(rata)}`;
+   return `${namaSiswa}: rata-rata ${rata}, predikat ${predikat(rata)}`;
 }
 
 // 4. Hasil nilai Andi
@@ -59,6 +57,6 @@ console.log(`predikat(70) = ${predikat(70)}`); // C
 console.log(`predikat(69) = ${predikat(69)}`); // D
 
 // 6. Rapor beberapa siswa
-console.log(rapor("Andi", 85, 78, 89));
+console.log(rapor("Ulhaq", 85, 78, 89));
 console.log(rapor("Sinta", 92, 88, 96));
 console.log(rapor("Budi", 70, 65, 72));
