@@ -1,340 +1,244 @@
-/* Gaya portofolio Andi Pratama   Palet: #1D3557 (utama), #E63946 (aksen), #F1FAEE (latar)   Huruf: Poppins (judul), Inter (isi)   Tata letak: mobile first, titik ubah 768px (tablet) dan 1024px (laptop) */
 /* 1. Reset */
 * {
-    box-sizing: border-box;
-    margin: 0;
+  box-sizing: border-box;
+  margin: 0;
 }
-
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%;
+  height: auto;
 }
-
 
 /* 2. Dasar halaman: warna dan huruf */
 body {
-    font-family: "Inter", Arial, sans-serif;
-    font-size: 1rem;
-    line-height: 1.6;
-    color: #333333;
-    background-color: #F1FAEE;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #333333;
+  background-color: #F1FAEE;
 }
-
-h1,
-h2,
-h3 {
-    font-family: "Poppins", Arial, sans-serif;
-    color: #1D3557;
-    line-height: 1.3;
+h1, h2, h3 {
+  font-family: "Poppins", Arial, sans-serif;
+  color: #1D3557;
+  line-height: 1.3;
 }
-
 h2 {
-    margin-bottom: 0.75rem;
+  margin-bottom: 0.75rem;
 }
-
-p,
-ul,
-ol {
-    margin-bottom: 1rem;
+p, ul, ol {
+  margin-bottom: 1rem;
 }
-
 a {
-    color: #E63946;
+  color: #E63946;
 }
 
 /* 3. Wadah, header, dan menu */
 .container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 1rem;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
 }
-
 header {
-    background-color: #1D3557;
-    color: #FFFFFF;
-    padding: 1rem 0;
+  background-color: #1D3557;
+  color: #FFFFFF;
+  padding: 1rem 0;
 }
-
 header h1 {
-    color: #FFFFFF;
-    font-size: 1.5rem;
+  color: #FFFFFF;
+  font-size: 1.5rem;
 }
-
 .navbar {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: center;
-    gap: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
 }
-
 nav ul {
-    display: flex;
-    gap: 0.25rem;
-    padding: 0;
-    margin: 0;
-    list-style: none;
+  display: flex;
+  gap: 0.25rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
-
 nav a {
-    display: inline-block;
-    padding: 0.5rem 0.75rem;
-    border-radius: 6px;
-    color: #FFFFFF;
-    font-weight: 600;
-    text-decoration: none;
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-decoration: none;
 }
 
 /* 4. Isi utama, hero, dan kartu */
 main {
-    padding: 1.5rem 0;
+  padding: 1.5rem 0;
 }
-
 .hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-    padding: 1rem 0 2rem;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 1rem 0 2rem;
+  text-align: center;
 }
-
 .hero img {
-    border: 4px solid #E63946;
-    border-radius: 50%;
+  border: 4px solid #E63946;
+  border-radius: 50%;
 }
-
 .hero h2 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
-
 .tombol {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    border-radius: 6px;
-    background-color: #E63946;
-    color: #FFFFFF;
-    font-weight: 600;
-    text-decoration: none;
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  background-color: #E63946;
+  color: #FFFFFF;
+  font-weight: 600;
+  text-decoration: none;
 }
-
 .kartu {
-    background-color: #FFFFFF;
-    padding: 1rem;
-    margin-bottom: 1.5rem;
-    border: 1px solid #DDDDDD;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  background-color: #FFFFFF;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid #DDDDDD;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
-
 .daftar-kartu {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
-    margin-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
 }
-
 .daftar-kartu .kartu {
-    flex: 1 1 280px;
-    margin-bottom: 0;
+  flex: 1 1 280px;
+  margin-bottom: 0;
 }
-
 article img {
-    border-radius: 8px;
-    border: 1px solid #DDDDDD;
+  border-radius: 8px;
+  border: 1px solid #DDDDDD;
 }
 
 /* 5. Tabel */
 table {
-    border-collapse: collapse;
+  border-collapse: collapse;
 }
-
 caption {
-    font-weight: 600;
-    text-align: left;
-    margin-bottom: 0.5rem;
+  font-weight: 600;
+  text-align: left;
+  margin-bottom: 0.5rem;
 }
-
-th,
-td {
-    border: 1px solid #CCCCCC;
-    padding: 0.5rem 0.75rem;
-    text-align: left;
+th, td {
+  border: 1px solid #CCCCCC;
+  padding: 0.5rem 0.75rem;
+  text-align: left;
 }
-
 th {
-    background-color: #1D3557;
-    color: #FFFFFF;
-}
-
-
-
-/* 7. Footer */
-footer {
-    background-color: #1D3557;
-    color: #F1FAEE;
-    text-align: center;
-
-    padding: 1.5rem;
-}
-
-footer p {
-    margin-bottom: 0.25rem;
-}
-
-footer a {
-    color: #FFFFFF;
+  background-color: #1D3557;
+  color: #FFFFFF;
 }
 
 /* 6. Form */
 label {
-    font-weight: 600;
+  font-weight: 600;
 }
-
-input,
-select,
-textarea {
-    width: 100%;
-    max-width: 22rem;
-    padding: 0.6rem;
-    margin-top: 0.25rem;
-    border: 1px solid #CCCCCC;
-    border-radius: 6px;
-    font-family: inherit;
-    font-size: 1rem;
+input, select, textarea {
+  width: 100%;
+  max-width: 22rem;
+  padding: 0.6rem;
+  margin-top: 0.25rem;
+  border: 1px solid #CCCCCC;
+  border-radius: 6px;
+  font-family: inherit;
+  font-size: 1rem;
 }
-
 button {
-    padding: 0.75rem 1.5rem;
-    border: none;
-    border-radius: 6px;
-    background-color: #E63946;
-    color: #FFFFFF;
-    font-family: inherit;
-    font-size: 1rem;
-    font-weight: 600;
-    cursor: pointer;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 6px;
+  background-color: #E63946;
+  color: #FFFFFF;
+  font-family: inherit;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+/* 7. Footer */
+footer {
+  background-color: #1D3557;
+  color: #F1FAEE;
+  text-align: center;
+  padding: 1.5rem;
+}
+footer p {
+  margin-bottom: 0.25rem;
+}
+footer a {
+  color: #FFFFFF;
 }
 
 /* 8. Tablet: lebar layar 768px ke atas */
 @media (min-width: 768px) {
-    .hero {
-        flex-direction: row;
-        padding: 2rem 0 3rem;
-        text-align: left;
-    }
-
-    .kartu {
-        padding: 1.5rem;
-    }
+  .hero {
+    flex-direction: row;
+    padding: 2rem 0 3rem;
+    text-align: left;
+  }
+  .kartu {
+    padding: 1.5rem;
+  }
 }
 
 /* 9. Laptop: lebar layar 1024px ke atas */
 @media (min-width: 1024px) {
-    main {
-        padding: 2.5rem 0;
-    }
-
-    .hero {
-        gap: 3rem;
-    }
-}
-
-.hero h2 {
+  main {
+    padding: 2.5rem 0;
+  }
+  .hero {
+    gap: 3rem;
+  }
+  .hero h2 {
     font-size: 2.75rem;
+  }
+}
+/* Styling dasar untuk menu ponsel (details & summary) */
+.menu-ponsel summary {
+  background-color: #E63946;
+  color: #FFFFFF;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none; /* Menghilangkan panah bawaan browser jika ingin lebih bersih */
 }
 
-/* 10. Kontak dan Footer */
-#kontak {
-    width: 100%;
+.menu-ponsel nav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  margin-top: 0.5rem;
+  background-color: #1D3557;
+  padding: 0.5rem;
+  border-radius: 6px;
 }
 
-footer,
-.footer-kontak {
-    width: 100%;
-    background-color: #1D3557;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 1.5rem 1rem;
-    border-radius: 8px;
-    margin-top: 1rem;
+/* Pengaturan tampilan berdasarkan ukuran layar (Mobile First) */
+.menu-laptop {
+  display: none; /* Sembunyikan menu laptop di layar ponsel */
 }
 
-footer p,
-.footer-kontak p {
-    color: #FFFFFF;
-    margin-bottom: 0.5rem;
+.menu-ponsel {
+  display: block; /* Tampilkan menu tombol ponsel */
 }
 
-footer p:last-child,
-.footer-kontak p:last-child {
-    margin-bottom: 0;
+/* Saat dibuka di tablet / laptop (768px ke atas) */
+@media (min-width: 768px) {
+  .menu-ponsel {
+    display: none; /* Sembunyikan menu tombol ponsel di layar besar */
+  }
+  .menu-laptop {
+    display: block; /* Tampilkan menu biasa untuk laptop */
+  }
 }
-
-footer a,
-.footer-kontak a {
-    color: #FFFFFF;
-    margin: 0 0.4rem;
-    text-decoration: none;
-}
-
-footer a:hover,
-.footer-kontak a:hover {
-    color: #E63946;
-}
-
-
-/* 12. HP: di bawah 600px */
-@media (max-width: 600px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    header h1 {
-        font-size: 1.25rem;
-    }
-
-    .kartu {
-        padding: 1rem;
-    }
-
-    table {
-        font-size: 0.85rem;
-    }
-
-    th,
-    td {
-        padding: 0.4rem;
-    }
-}
-
-.hero {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.5rem;
-    padding: 1rem 0 2rem;
-    text-align: center;
-}
-
-.hero img {
-    border: 4px solid #E63946;
-    border-radius: 50%;
-}
-
-.hero h2 {
-    font-size: 2rem;
-}
-
-.tombol {
-    display: inline-block;
-    padding: 0.75rem 1.5rem;
-    border-radius: 6px;
-    background-color: #E63946;
-    color: #FFFFFF;
-    font-weight: 600;
-    text-decoration: none;
-}
-
-/* Gaya portofolio Andi Pratama   Palet: #1D3557 (utama), #E63946 (aksen), #F1FAEE (latar)   Huruf: Poppins (judul), Inter (isi)   Tata letak: mobile first, titik ubah 768px (tablet) dan 1024px (laptop) */
