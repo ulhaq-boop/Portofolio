@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Muhamad Daffa Ulhaq</h1>
+        <p>Siswa Kelas X STMJ, Calon Web Developer di Kelas Industri UBIG</p>
+
+        <div class="container navbar">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="proyek.html">Lihat Proyek</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="kartu">
+            <h2>Kalkulator Nilai</h2>
+
+            <p>Masukkan Nilai Tugas, UTS, dan UAS, Lalu Tekan Tombol Hitung</p>
+
+            <form>
+                <label for="tugas">Nilai Tugas:</label>
+                <input type="number" id="tugas" name="tugas" min="0" max="100" required><br><br>
+
+                <label for="uts">Nilai UTS:</label>
+                <input type="number" id="uts" name="uts" min="0" max="100" required><br><br>
+
+                <label for="uas">Nilai UAS:</label>
+                <input type="number" id="uas" name="uas" min="0" max="100" required><br><br>
+
+                <button type="button" id="hitung">Hitung</button>
+            </form>
+
+            <p id="rata-rata"></p>
+            <p id="hasil"></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>
+            Email: <a href="mailto:mdaffaulhaq123@gmail.com">mdaffaulhaq123@gmail.com</a> |
+            <a href="https://github.com/ulhaq-boop" target="_blank" rel="noopener noreferrer">GitHub</a> |
+            <a href="https://www.youtube.com/@DaffaUlhaq-17" target="_blank" rel="noopener noreferrer">YouTube</a>
+        </p>
+    </footer>
+
+    <script src="js/kalkulator.js"></script>
+</body>
+
+</html>
